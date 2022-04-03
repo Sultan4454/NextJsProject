@@ -42,7 +42,7 @@ a {
 }
 
 .SearchBox{
-  border: 2px solid rgb(90, 89, 89);
+  border: 2px solid rgb(235, 229, 229);
   border-radius: 20px;
   margin-right: 20px;
   width: 400px;
@@ -63,7 +63,7 @@ padding-bottom: 8px;
 .butn-primary{
   border-radius: 50px;
   padding: 10px 15px;
-  border: 1px solid black;
+  border: 1px solid white;
   color: rgba(91,33,182);
   font-weight: bold;
   outline: none;
@@ -73,12 +73,27 @@ padding-bottom: 8px;
   background-color: rgba(91,33,182);
   color: white;
   border: 1px solid white;
+}
+
+/* .butn-primary:disabled:hover{
+  color: rgba(91,33,182);
+  background-color: rgb(141, 138, 138);
+  border: 1px solid rgb(141, 138, 138);
+
+} */
+
+.butn-primary:disabled{
+  color: rgba(91,33,182);
+  background-color: rgb(141, 138, 138);
+  border: 1px solid rgb(141, 138, 138);
 
 }
+
 .content{
   margin-top: 175px;
 }
+
 .dataabouturl{
-margin-top: 90px;
+margin-top: 70px;
 margin-left: 140px;
 }
